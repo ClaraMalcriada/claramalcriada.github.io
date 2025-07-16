@@ -204,8 +204,8 @@ export default function App() {
                 <img 
                   src={book.image} 
                   alt={book.title} 
-                  className="w-full md:w-40 h-auto object-cover rounded-t-lg md:rounded-l-lg md:rounded-t-none"
-                />
+                  className="w-full md:w-80 h-auto aspect-[2/3] object-cover rounded-t-lg md:rounded-l-lg md:rounded-t-none"
+                  loading="lazy" decoding="async" />
                 <div className="p-6 flex flex-col justify-between">
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">{book.title}</h3>
