@@ -1,66 +1,68 @@
 import React, { useState } from 'react';
+// No topo do arquivo, após os imports existentes
+import { FaEnvelope, FaAmazon, FaInstagram, FaTwitter, FaYoutube, FaRegLaughWink } from 'react-icons/fa';
+import { TbBrandThreads } from 'react-icons/tb'; // Threads (usaremos o pacote `react-icons/tb` para Threads)
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('all');
   
-  // Mock data for books
+  // Dados atualizados com livros reais
   const books = [
     {
       id: 1,
-      title: "A Arte da Indireta Chinesa",
-      subtitle: "Como Ofender com Elegância e Sabedoria Milenar",
-      series: "Parte de: A Arte da Patada (4 livros)",
-      price: "R$ 5,99",
-      image: "https://placehold.co/300x400?text=A+Arte+da+Indireta+Chinesa",
-      kindleUnlimited: true,
-      featured: true
-    },
-    {
-      id: 2,
-      title: "Patadas Russas",
-      subtitle: "Como Insultar com Elegância e Sobreviver na Terra dos Czares",
-      series: "Parte de: A Arte da Patada (4 livros)",
-      price: "R$ 9,99",
-      image: " https://placehold.co/300x400?text=Patadas+Russas",
-      kindleUnlimited: true
-    },
-    {
-      id: 3,
-      title: "As Melhores Patadas Infantis",
-      subtitle: "Para Adultos!",
-      series: "eBook Kindle",
-      price: "R$ 5,99",
-      image: " https://placehold.co/300x400?text=As+Melhores+Patadas+Infantis",
-      kindleUnlimited: true
-    },
-    {
-      id: 4,
-      title: "Patadas Árabes",
-      subtitle: "A Arte da Retórica do Desprezo",
-      series: "Parte de: A Arte da Patada (4 livros)",
-      price: "R$ 9,99",
-      image: " https://placehold.co/300x400?text=Patadas+Árabes",
-      kindleUnlimited: true
-    },
-    {
-      id: 5,
       title: "A Arte do Insulto Persa",
       subtitle: "Elegância, Metáforas e Crítica na Tradição Iraniana",
       series: "Parte de: A Arte da Patada (4 livros)",
       price: "R$ 9,99",
-      image: " https://placehold.co/300x400?text=A+Arte+do+Insulto+Persa",
-      kindleUnlimited: true
+      image: "./cover-patadas-persas.png",
+      kindleUnlimited: true,
+      featured: true,
+      description: "Combinando erudição e irreverência, Clara Malcriada conduz o leitor por um jardim de espinhos poéticos onde o insulto é refinado como um verso de Hafez. Descubra os pavões, espelhos e punhais escondidos nas entrelinhas do Irã clássico.",
+      amazonLink: "https://www.amazon.com.br/dp/B0FGNWW71K "
     },
     {
-      id: 6,
-      title: "The Best Childish Comebacks",
-      subtitle: "For Adults! (English Edition)",
+      id: 2,
+      title: "Patadas Árabes",
+      subtitle: "A Arte da Retórica do Desprezo",
+      series: "Parte de: A Arte da Patada (4 livros)",
+      price: "R$ 9,99",
+      image: "./cover-patadas-arabes.png",
+      kindleUnlimited: true,
+      description: "Explore como o descontentamento é expressado com inteligência linguística e estética no mundo árabe, por meio de provérbios, metáforas e caligrafia sofisticada.",
+      amazonLink: "https://www.amazon.com.br/dp/B0FGWVCZB7 "
+    },
+    {
+      id: 3,
+      title: "Patadas Russas",
+      subtitle: "Como Insultar com Elegância e Sobreviver na Terra dos Czares",
+      series: "Parte de: A Arte da Patada (4 livros)",
+      price: "R$ 9,99",
+      image: "./cover-patadas-russas.png",
+      kindleUnlimited: true,
+      description: "Desvende a complexidade da comunicação russa com 'PATADAS RUSSAS'. Deixe-se guiar por Clara Malcriada em uma jornada que explora a arte de insultar com elegância.",
+      amazonLink: "https://www.amazon.com.br/dp/B0FG481J85 "
+    },
+    {
+      id: 4,
+      title: "A Arte da Indireta Chinesa",
+      subtitle: "Como Ofender com Elegância e Sabedoria Milenar",
+      series: "Parte de: A Arte da Patada (4 livros)",
+      price: "R$ 9,99",
+      image: "./cover-patadas-chinesas.png",
+      kindleUnlimited: true,
+      description: "Cansado de confrontos diretos? Quer dominar a arte de expressar verdades incômodas com a elegância de um estrategista milenar e o humor de um mestre do sarcasmo?",
+      amazonLink: "https://www.amazon.com.br/dp/B0FFNDMV3Y "
+    },
+    {
+      id: 5,
+      title: "As Melhores Patadas Infantis",
+      subtitle: "Para Adultos!",
       series: "eBook Kindle",
       price: "R$ 5,99",
-      image: " https://placehold.co/300x400?text=The+Best+Childish+Comebacks",
+      image: "./cover-patadas-infantis.png",
       kindleUnlimited: true,
-      rating: "5.0 de 5 estrelas",
-      reviews: "1 avaliação de clientes"
+      description: "Prepare-se para o livro mais inútil e hilário que você já leu! Uma coleção de 'patadas' tão ridículas que chegam a ser geniais.",
+      amazonLink: "https://www.amazon.com.br/dp/B0FF3CT1TW "
     }
   ];
 
@@ -177,82 +179,52 @@ export default function App() {
           </div>
         </div>
       </section>
-
-      {/* Books Section */}
+      
+      {/* Seção de Livros Atualizada */}
       <section id="books" className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Meus Livros</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Livros da Autora</h2>
             <div className="w-20 h-1 bg-pink-600 mx-auto mb-6"></div>
             <p className="text-lg text-gray-700">
               Descubra as obras que transformaram Clara Malcriada na voz que todos temem e amam.
             </p>
           </div>
           
-          <div className="mb-10 flex justify-center">
-            <div className="inline-flex bg-pink-100 p-1 rounded-lg">
-              <button 
-                onClick={() => setActiveTab('all')}
-                className={`px-4 py-2 rounded-md ${activeTab === 'all' ? 'bg-pink-600 text-white' : 'text-pink-700'}`}
-              >
-                Todos
-              </button>
-              <button 
-                onClick={() => setActiveTab('series')}
-                className={`px-4 py-2 rounded-md ${activeTab === 'series' ? 'bg-pink-600 text-white' : 'text-pink-700'}`}
-              >
-                Série "A Arte da Patada"
-              </button>
-              <button 
-                onClick={() => setActiveTab('standalone')}
-                className={`px-4 py-2 rounded-md ${activeTab === 'standalone' ? 'bg-pink-600 text-white' : 'text-pink-700'}`}
-              >
-                Livros Avulsos
-              </button>
-            </div>
-          </div>
+          {/* Tabs permanecem as mesmas */}
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-12">
             {books.map((book) => (
               <div 
                 key={book.id} 
-                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
+                className="flex flex-col md:flex-row gap-6 bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
               >
                 <img 
                   src={book.image} 
                   alt={book.title} 
-                  className="w-full h-80 object-cover"
+                  className="w-full md:w-40 h-auto object-cover rounded-t-lg md:rounded-l-lg md:rounded-t-none"
                 />
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-1">{book.title}</h3>
-                  <p className="text-sm text-gray-600 mb-3">{book.subtitle}</p>
-                  <p className="text-xs text-gray-500 mb-4">{book.series}</p>
-                  <div className="flex justify-between items-center">
-                    <span className="text-lg font-semibold text-pink-600">{book.price}</span>
-                    <div className="flex items-center">
-                      {book.kindleUnlimited && (
-                        <span className="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded-full mr-2">
-                          Kindle Unlimited
-                        </span>
-                      )}
-                      {book.rating && (
-                        <div className="flex items-center">
-                          <span className="text-xs text-gray-600">{book.rating}</span>
-                          <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-yellow-400 ml-1" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </div>
-                      )}
-                    </div>
+                <div className="p-6 flex flex-col justify-between">
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">{book.title}</h3>
+                    <p className="text-sm text-gray-600 mb-3">{book.subtitle}</p>
+                    <p className="text-xs text-gray-500 mb-4">{book.series}</p>
+                    <p className="text-gray-700 text-sm mb-4">{book.description}</p>
                   </div>
-                  <div className="mt-4 pt-4 border-t border-gray-200 flex justify-between">
-                    <a href="#" className="text-pink-600 hover:text-pink-800 font-medium">
-                      Visualização rápida
-                    </a>
-                    <a href="#" className="text-pink-600 hover:text-pink-800">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
-                      </svg>
+                  <div className="mt-4 pt-4 border-t border-gray-200 flex flex-wrap items-center justify-between">
+                    <span className="text-lg font-semibold text-pink-600">{book.price}</span>
+                    {book.kindleUnlimited && (
+                      <span className="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded-full">
+                        Kindle Unlimited
+                      </span>
+                    )}
+                    <a 
+                      href={book.amazonLink}
+                      className="text-pink-600 hover:text-pink-800 font-medium mt-2 md:mt-0"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Comprar no Amazon →
                     </a>
                   </div>
                 </div>
@@ -261,7 +233,7 @@ export default function App() {
           </div>
         </div>
       </section>
-
+      
       {/* Newsletter Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
@@ -288,51 +260,118 @@ export default function App() {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section id="contact" className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Vai dizer alguma coisa?</h2>
-            <div className="w-20 h-1 bg-pink-600 mx-auto mb-6"></div>
-            <p className="text-lg text-gray-700">
-              Se você insiste em falar comigo, aqui estão os canais oficiais:
-            </p>
-          </div>
-          
-          <div className="flex flex-col md:flex-row gap-8 justify-center">
-            <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-              <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-pink-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-1">Email</h3>
-              <p className="text-gray-600">clara.malcriada@email.com</p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-              <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-pink-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                </svg>
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-1">Amazon</h3>
-              <p className="text-gray-600">clara.malcriada</p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-              <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-pink-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" />
-                  <circle cx="4" cy="4" r="2" fill="currentColor" />
-                </svg>
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-1">Instagram</h3>
-              <p className="text-gray-600">@claramalcriada</p>
-            </div>
-          </div>
+{/* Contact Section */}
+<section id="contact" className="py-20 bg-gray-50">
+  <div className="container mx-auto px-4">
+    <div className="max-w-3xl mx-auto text-center mb-16">
+      <h2 className="text-3xl font-bold text-gray-900 mb-4">Vai dizer alguma coisa?</h2>
+      <div className="w-20 h-1 bg-pink-600 mx-auto mb-6"></div>
+      <p className="text-lg text-gray-700">
+        Se você insiste em falar comigo, aqui estão os canais oficiais:
+      </p>
+    </div>
+
+    {/* Main Contact Cards */}
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center mb-12">
+      {/* Email */}
+      <div className="bg-white p-6 rounded-lg shadow-sm text-center transition-transform hover:scale-105">
+        <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
+          <FaEnvelope className="text-pink-600" size={24} />
         </div>
-      </section>
+        <h3 className="text-lg font-semibold text-gray-900 mb-1">Email</h3>
+        <a 
+          href="mailto:malcriadaclara@gmail.com" 
+          className="text-pink-600 hover:text-pink-800 transition-colors"
+        >
+          malcriadaclara@gmail.com
+        </a>
+      </div>
+      
+      {/* Amazon */}
+      <div className="bg-white p-6 rounded-lg shadow-sm text-center transition-transform hover:scale-105">
+        <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
+          <FaAmazon className="text-pink-600" size={24} />
+        </div>
+        <h3 className="text-lg font-semibold text-gray-900 mb-1">Amazon</h3>
+        <a 
+          href="https://www.amazon.com/author/claramalcriada " 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-pink-600 hover:text-pink-800 transition-colors"
+        >
+          @claramalcriada
+        </a>
+      </div>
+      
+      {/* Instagram */}
+      <div className="bg-white p-6 rounded-lg shadow-sm text-center transition-transform hover:scale-105">
+        <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
+          <FaInstagram className="text-pink-600" size={24} />
+        </div>
+        <h3 className="text-lg font-semibold text-gray-900 mb-1">Instagram</h3>
+        <a 
+          href="https://instagram.com/malcriadabooks " 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-pink-600 hover:text-pink-800 transition-colors"
+        >
+          @malcriadabooks
+        </a>
+      </div>
+    </div>
+
+    {/* Additional Social Links */}
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 justify-center">
+      {/* X (Twitter) */}
+      <div className="bg-white p-4 rounded-lg shadow-sm text-center transition-transform hover:scale-105">
+        <div className="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-3">
+          <FaTwitter className="text-pink-600" size={20} />
+        </div>
+        <h3 className="text-sm font-semibold text-gray-900 mb-1">X (Twitter)</h3>
+        <a 
+          href="https://x.com/ClaraMalcriada " 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-pink-600 hover:text-pink-800 transition-colors text-sm"
+        >
+          @ClaraMalcriada
+        </a>
+      </div>
+
+      {/* YouTube */}
+      <div className="bg-white p-4 rounded-lg shadow-sm text-center transition-transform hover:scale-105">
+        <div className="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-3">
+          <FaYoutube className="text-pink-600" size={20} />
+        </div>
+        <h3 className="text-sm font-semibold text-gray-900 mb-1">YouTube</h3>
+        <a 
+          href="https://www.youtube.com/ @ClaraMalcriada" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-pink-600 hover:text-pink-800 transition-colors text-sm"
+        >
+          @ClaraMalcriada
+        </a>
+      </div>
+
+      {/* Threads */}
+      <div className="bg-white p-4 rounded-lg shadow-sm text-center transition-transform hover:scale-105">
+        <div className="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-3">
+          <TbBrandThreads className="text-pink-600" size={20} />
+        </div>
+        <h3 className="text-sm font-semibold text-gray-900 mb-1">Threads</h3>
+        <a 
+          href="https://www.threads.com/ @malcriadabooks" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-pink-600 hover:text-pink-800 transition-colors text-sm"
+        >
+          @malcriadabooks
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Footer */}
       <footer className="bg-white border-t border-gray-200 py-8">
@@ -342,23 +381,6 @@ export default function App() {
               <p className="text-gray-600">
                 © 2023 Clara Malcriada. Todos os direitos reservados.
               </p>
-            </div>
-            <div className="flex space-x-6">
-              <a href="#" className="text-gray-400 hover:text-pink-600 transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
-                </svg>
-              </a>
-              <a href="#" className="text-gray-400 hover:text-pink-600 transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.645.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.74 0 8.333.014 7.053.06 2.05 1.311 1.344 7.824 2.35 12.829c1.279 4.896 5.555 8.121 10.645 7.104 4.896-1.279 8.123-5.556 7.103-10.645C18.788 3.241 15.26 0 12 0zm0 11c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 6 6-2.686 6-6 6zm2.1-7.707-4.2 4.459-2.1-2.1.939-.939 1.161 1.163 3.261-3.46.939.939z"/>
-                </svg>
-              </a>
-              <a href="#" className="text-gray-400 hover:text-pink-600 transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
-                </svg>
-              </a>
             </div>
           </div>
         </div>
