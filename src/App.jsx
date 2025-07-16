@@ -389,7 +389,7 @@ export default function App() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-center md:text-left mb-4 md:mb-0">
               <p className="text-gray-600">
-                © 2023 Clara Malcriada. Todos os direitos reservados.
+                © 2025 Clara Malcriada. Todos os direitos reservados.
               </p>
             </div>
           </div>
