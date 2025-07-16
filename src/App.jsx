@@ -59,6 +59,7 @@ export default function App() {
       title: "As Melhores Patadas Infantis",
       subtitle: "Para Adultos!",
       series: "eBook Kindle",
+      originalPrice: "R$ 9,99",
       price: "R$ 5,99",
       image: "./cover-patadas-infantis.png",
       kindleUnlimited: true,
