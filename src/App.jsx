@@ -345,7 +345,7 @@ export default function App() {
         </div>
         <h3 className="text-sm font-semibold text-gray-900 mb-1">YouTube</h3>
         <a 
-          href="https://www.youtube.com/ @ClaraMalcriada" 
+          href="https://www.youtube.com/@ClaraMalcriada" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-pink-600 hover:text-pink-800 transition-colors text-sm"
@@ -361,7 +361,7 @@ export default function App() {
         </div>
         <h3 className="text-sm font-semibold text-gray-900 mb-1">Threads</h3>
         <a 
-          href="https://www.threads.com/ @malcriadabooks" 
+          href="https://www.threads.com/@malcriadabooks" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-pink-600 hover:text-pink-800 transition-colors text-sm"
