@@ -1,6 +1,8 @@
+name: Deploy to GitHub Pages
+
 on:
   push:
-    branches: [source]  # ✅ Roda na branch 'source'
+    branches: [main]  # ✅ Rode no push da branch principal
 
 jobs:
   deploy:
@@ -12,17 +14,22 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 20  # ✅ Vite 7 requer Node.js 20+
       
       - name: Install dependencies
         run: npm install
       
       - name: Build project
-        run: npm run build
+        run: |
+          npm run build
+          ls -la dist/  # ✅ Verifica os arquivos gerados
       
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages (gh-pages branch)
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
-          publish_branch: main  # ✅ Faz deploy na branch 'main'
+          publish_branch: gh-pages  # ✅ Agora usamos gh-pages
+          enable_jekyll: false
+          keep_files: true  # ✅ Mantém arquivos existentes (como .nojekyll)
+          exclude_assets: .github  # ✅ Não deleta o workflow
