@@ -47,7 +47,8 @@ export default function App() {
       title: "A Arte da Indireta Chinesa",
       subtitle: "Como Ofender com Elegância e Sabedoria Milenar",
       series: "Parte de: A Arte da Patada (4 livros)",
-      price: "R$ 9,99",
+      originalPrice: "R$ 9,99",
+      price: "R$ 5,99",
       image: "./cover-patadas-chinesas.png",
       kindleUnlimited: true,
       description: "Cansado de confrontos diretos? Quer dominar a arte de expressar verdades incômodas com a elegância de um estrategista milenar e o humor de um mestre do sarcasmo?",
@@ -117,7 +118,7 @@ export default function App() {
               <div className="absolute -top-6 -right-6 w-40 h-40 bg-pink-200 rounded-full opacity-30"></div>
               <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-purple-200 rounded-full opacity-30"></div>
               <img 
-                src=" https://placehold.co/600x600?text=Clara+Malcriada" 
+                src="./hero.png"
                 alt="Clara Malcriada" 
                 className="rounded-lg shadow-lg w-full max-w-md mx-auto"
               />
@@ -212,12 +213,21 @@ export default function App() {
                     <p className="text-gray-700 text-sm mb-4">{book.description}</p>
                   </div>
                   <div className="mt-4 pt-4 border-t border-gray-200 flex flex-wrap items-center justify-between">
-                    <span className="text-lg font-semibold text-pink-600">{book.price}</span>
-                    {book.kindleUnlimited && (
-                      <span className="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded-full">
+                    <div className="flex justify-between items-center">
+                      <div>
+                        {book.originalPrice && (
+                          <p className="text-sm text-gray-500 line-through">
+                          {book.originalPrice}
+                          </p>
+                        )}
+                        <span className="text-lg font-semibold text-pink-600">{book.price}</span>
+                      </div>
+                      {book.kindleUnlimited && (
+                        <span className="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded-full">
                         Kindle Unlimited
-                      </span>
-                    )}
+                        </span>
+                      )}
+                    </div>
                     <a 
                       href={book.amazonLink}
                       className="text-pink-600 hover:text-pink-800 font-medium mt-2 md:mt-0"
