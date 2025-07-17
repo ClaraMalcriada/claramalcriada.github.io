@@ -310,6 +310,7 @@ export default function App() {
           </div>
         </section>
 
+        {/* Newsletter Section */}
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
@@ -331,6 +332,12 @@ export default function App() {
                   Inscrever-se
                 </button>
               </form>
+              <p className="text-sm text-gray-500 mt-2 w-full text-center">
+                Ao se inscrever, você concorda com nossa{' '}
+                <a href="/privacy-policy.html" className="text-pink-600 hover:text-pink-800">
+                  Política de Privacidade
+                </a>.
+              </p>
             </div>
           </div>
         </section>
@@ -345,7 +352,7 @@ export default function App() {
               </p>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-8 justify-center mb-12">
               <div className="bg-white p-6 rounded-lg shadow-sm text-center transition-transform hover:scale-105">
                 <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <FaEnvelope className="text-pink-600" size={24} />
@@ -358,46 +365,16 @@ export default function App() {
                   malcriadaclara@gmail.com
                 </a>
               </div>
-              
-              <div className="bg-white p-6 rounded-lg shadow-sm text-center transition-transform hover:scale-105">
-                <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <FaAmazon className="text-pink-600" size={24} />
-                </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-1">Amazon</h3>
-                <a 
-                  href="https://www.amazon.com.br/author/claramalcriada " 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-pink-600 hover:text-pink-800 transition-colors"
-                >
-                  @claramalcriada
-                </a>
-              </div>
-              
-              <div className="bg-white p-6 rounded-lg shadow-sm text-center transition-transform hover:scale-105">
-                <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <FaInstagram className="text-pink-600" size={24} />
-                </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-1">Instagram</h3>
-                <a 
-                  href="https://instagram.com/malcriadabooks " 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-pink-600 hover:text-pink-800 transition-colors"
-                >
-                  @malcriadabooks
-                </a>
-              </div>
             </div>
             
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 justify-center">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 justify-center">
               <div className="bg-white p-4 rounded-lg shadow-sm text-center transition-transform hover:scale-105">
                 <div className="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-3">
                   <FaTwitter className="text-pink-600" size={20} />
                 </div>
                 <h3 className="text-sm font-semibold text-gray-900 mb-1">X (Twitter)</h3>
                 <a 
-                  href="https://x.com/ClaraMalcriada " 
+                  href="https://x.com/ClaraMalcriada" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-pink-600 hover:text-pink-800 transition-colors text-sm"
@@ -435,6 +412,36 @@ export default function App() {
                   @malcriadabooks
                 </a>
               </div>
+
+              <div className="bg-white p-4 rounded-lg shadow-sm text-center transition-transform hover:scale-105">
+                <div className="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <FaAmazon className="text-pink-600" size={20} />
+                </div>
+                <h3 className="text-sm font-semibold text-gray-900 mb-1">Amazon</h3>
+                <a 
+                  href="https://www.amazon.com/author/claramalcriada" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-pink-600 hover:text-pink-800 transition-colors"
+                >
+                  @claramalcriada
+                </a>
+              </div>
+              
+              <div className="bg-white p-4 rounded-lg shadow-sm text-center transition-transform hover:scale-105">
+                <div className="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <FaInstagram className="text-pink-600" size={20} />
+                </div>
+                <h3 className="text-sm font-semibold text-gray-900 mb-1">Instagram</h3>
+                <a 
+                  href="https://instagram.com/malcriadabooks" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-pink-600 hover:text-pink-800 transition-colors"
+                >
+                  @malcriadabooks
+                </a>
+              </div>
             </div>
           </div>
         </section>
@@ -442,10 +449,14 @@ export default function App() {
         <footer className="bg-white border-t border-gray-200 py-8">
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row justify-between items-center">
-              <div className="text-center md:text-left mb-4 md:mb-0">
-                <p className="text-gray-600">
-                  © 2025 Clara Malcriada. Todos os direitos reservados.
-                </p>
+              <p className="text-gray-600">© 2025 Clara Malcriada. Todos os direitos reservados.</p>
+              <div className="flex space-x-6 mt-4 md:mt-0">
+                <a href="/privacy-policy.html" className="text-gray-400 hover:text-pink-600 transition-colors">
+                  Política de Privacidade
+                </a>
+                <a href="#contact" className="text-gray-400 hover:text-pink-600 transition-colors">
+                  Contato
+                </a>
               </div>
             </div>
           </div>
