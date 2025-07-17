@@ -365,7 +365,7 @@ export default function App() {
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-1">Amazon</h3>
                 <a 
-                  href="https://www.amazon.com/author/claramalcriada " 
+                  href="https://www.amazon.com.br/author/claramalcriada " 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-pink-600 hover:text-pink-800 transition-colors"
