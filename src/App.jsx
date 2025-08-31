@@ -94,6 +94,23 @@ export default function App() {
         description: "O livro mais inútil e hilário sobre patadas infantis para adultos",
         keywords: "patadas infantis, sarcasmo infantil, Amazon, Kindle"
       }
+    },
+    {
+      id: 5,
+      name: "patadas-indianas",
+      title: "Patadas Indianas",
+      subtitle: "A Arte do Insulto Elegante na Cultura e Retórica da Índia Moderna",
+      series: "eBook Kindle",
+      price: "R$ 9,99",
+      image: "./cover-patadas-indianas.png",
+      kindleUnlimited: true,
+      description: "Descubra Patadas Indianas — um guia irreverente e inteligente sobre a arte do insulto elegante na cultura indiana moderna. Da sabedoria Védica aos memes em Hinglish, da sátira pós-colonial à ironia cotidiana, este livro explora como a retórica oriental transforma crítica em arte.",
+      amazonLink: "https://www.amazon.com.br/dp/B0FK32S89L ",
+      seo: {
+        title: "Patadas Indianas | Clara Malcriada",
+        description: "A Arte do Insulto Elegante na Cultura e Retórica da Índia Moderna",
+        keywords: "patadas indianas, sarcasmo, Amazon, Kindle"
+      }
     }
   ];
 
