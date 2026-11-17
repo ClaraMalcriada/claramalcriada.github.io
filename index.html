@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -23,7 +23,7 @@
   <meta name="twitter:title" content="Clara Malcriada | Livros Sarcásticos e Patadas Verbais">
   <meta name="twitter:description" content="Clara Malcriada escreve livros sobre sarcasmo, ironia e patadas verbais. Descubra 'A Arte da Indireta Chinesa', 'Patadas Russas' e mais.">
   <meta name="twitter:image" content="https://claramalcriada.github.io/hero.png ">
-    <script type="module" crossorigin src="/assets/index-tSOF3RL9.js"></script>
+    <script type="module" crossorigin src="/assets/index-j6r8jD5x.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-BHGSz_Hb.css">
   </head>
 
@@ -44,5 +44,27 @@
 
   <body>
     <div id="root"></div>
+  <script>
+    // Rolagem para âncoras (#books, #about, #contact) vindas de outras páginas:
+    // o React monta depois que o browser tenta pular, então tentamos por ~3s.
+    (function () {
+      function tryScroll() {
+        var hash = window.location.hash;
+        if (!hash || hash.length < 2) return false;
+        var el = document.querySelector(hash);
+        if (el) { el.scrollIntoView(); return true; }
+        return false;
+      }
+      function loop() {
+        var n = 0;
+        var t = setInterval(function () {
+          if (tryScroll() || ++n >= 20) clearInterval(t);
+        }, 150);
+      }
+      window.addEventListener('load', loop);
+      window.addEventListener('hashchange', loop);
+      if (document.readyState !== 'loading') loop();
+    })();
+  </script>
   </body>
 </html>
