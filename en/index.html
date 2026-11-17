@@ -48,6 +48,7 @@ nav a.lang{font-size:.875rem;color:var(--gray-500)}
 .hero h1{font-size:2.25rem;line-height:1.15;margin:0}
 .hero p{color:var(--gray-600);font-size:1.125rem;margin:.25rem 0 0}
 .divider{width:5rem;height:4px;background:var(--pink-600);border-radius:2px;margin:1.25rem 0 1.5rem}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:1rem;margin-top:1.5rem}
 @media(min-width:640px){.hero h1{font-size:3rem}}
 main{padding:2.5rem 0}
 main h2{font-size:1.5rem;margin:2rem 0 .75rem}
@@ -61,6 +62,11 @@ main p{margin:0 0 1.1rem}
 .card .meta{font-size:.875rem;color:var(--gray-500)}
 .btn{display:inline-block;margin-top:.5rem;background:var(--pink-600);color:#fff;padding:.75rem 1.5rem;border-radius:.5rem;font-weight:600}
 .btn:hover{background:var(--pink-700);color:#fff;text-decoration:none}
+.btn-outline{display:inline-block;margin-top:1.5rem;background:#fff;color:var(--pink-600);border:1px solid var(--pink-600);padding:.75rem 1.5rem;border-radius:.5rem;font-weight:600}
+.btn-outline:hover{background:var(--pink-50);color:var(--pink-700);text-decoration:none}
+.trait{background:var(--pink-50);border-radius:.5rem;padding:1.25rem;margin:0 0 1rem}
+.trait h3{font-size:1.05rem;margin:0 0 .35rem}
+.trait p{margin:0;font-size:.95rem}
 .more{border-top:1px solid var(--gray-200);margin-top:2.5rem;padding-top:1.5rem}
 .more h2{font-size:1.25rem;margin:0 0 .75rem}
 .more p{font-size:.95rem}
@@ -73,17 +79,31 @@ footer.site a{color:var(--gray-400);text-decoration:none}footer.site a:hover{col
 <body>
 <header class="site"><div class="container">
 <div class="brand">Clara Malcriada</div>
-<nav><a href="#books">Books</a><a href="/blog/">Blog</a><a href="/about.html">About</a><a class="lang" href="/">PT-BR</a></nav>
+<nav><a href="#books">Books</a><a href="/blog/" title="Portuguese blog">Blog</a><a href="#about">About</a><a href="#contact">Contact</a><a class="lang" href="/">PT-BR</a></nav>
 </div></header>
 <section class="hero"><div class="container">
 <h1>Clara Malcriada — Sarcastic books that slap back</h1>
 <div class="divider"></div>
 <p>Sarcastic books on insults, irony and elegant verbal comebacks — from imperial China to the land of the tsars.</p>
+<div class="hero-ctas">
+<a class="btn" style="margin-top:0" href="#books">See the books</a>
+<a class="btn-outline" style="margin-top:0" href="#about">Who is Clara?</a>
+</div>
 </div></section>
 <main class="container">
-<p><strong>Clara Malcriada is a Brazilian author of sarcastic humor books</strong> about insults, irony and elegant verbal comebacks. Her work explores how different cultures — from imperial China to the Russia of the tsars, from the Arab world to the Persia of the poets — turned criticism into a literary art. All titles are available on Amazon in Kindle format, and most are free to read with a Kindle Unlimited subscription.</p>
 
-<h2 id="books">Books in English</h2>
+<section id="about">
+<h2>Who is Clara Malcriada?</h2>
+<p>Clara Malcriada was born somewhere between a botched scolding and a comeback delivered behind someone's back. She showed a gift for saying what she thinks from an early age — especially when nobody asked. At 7, she said <em>"I don't have to"</em> for the first time, and never stopped.</p>
+<p>With a degree in <strong>Applied Sarcasm Arts</strong> and a specialization in <strong>Passive-Aggressive Communication</strong>, Clara built a career turning everyday situations into verbal weapons of moderate (emotional) destruction. She rose to fame after being kicked out of three family WhatsApp groups — with honors and zero regrets.</p>
+<div class="trait"><h3>Specialties</h3><p>Turning everyday situations into verbal weapons of moderate (emotional) destruction.</p></div>
+<div class="trait"><h3>Notoriety</h3><p>Famous for being kicked out of three family WhatsApp groups — with honors and zero regrets.</p></div>
+<div class="trait"><h3>Traits</h3><p>Declines invitations with elegance, gives unsolicited advice, and replies to emails with "as requested" even when nobody requested anything.</p></div>
+</section>
+
+<section id="books">
+<h2>Books in English</h2>
+<p>Discover the works that turned Clara Malcriada into the voice everyone fears and loves.</p>
 
 <div class="card">
 <img src="/cover-a-arte-da-indireta-chinesa.png" alt="Cover of The Art of the Chinese Indirection" loading="lazy" width="90">
@@ -133,19 +153,30 @@ footer.site a{color:var(--gray-400);text-decoration:none}footer.site a:hover{col
 <a class="btn" href="https://www.amazon.com/dp/B0FFFWQ4WC" rel="noopener">Read on Amazon →</a></div>
 </div>
 
-<h2>The Art of Insults — the series</h2>
-
+<h3>The Art of Insults — the series</h3>
 <div class="card">
 <div><h3>The Art of Insults (6 books)</h3>
 <p>Five cultures, one discipline: the art of insulting with elegance. The complete series on one page — Chinese indirection, Russian insults, Arabic contempt, Persian aesthetics, Indian rhetoric, plus the childish comebacks.</p>
 <p class="meta">Series ASIN B0H8G573PZ</p>
 <a class="btn" href="https://www.amazon.com/dp/B0H8G573PZ" rel="noopener">See the series on Amazon →</a></div>
 </div>
+</section>
+
+<section id="contact">
+<h2>Want to say something?</h2>
+<p>If you insist on talking to me, here are the official channels:</p>
+<ul>
+<li>Email: <a href="mailto:malcriadaclara@gmail.com">malcriadaclara@gmail.com</a></li>
+<li>X (Twitter): <a href="https://x.com/ClaraMalcriada" rel="noopener">@ClaraMalcriada</a></li>
+<li>Instagram: <a href="https://instagram.com/malcriadabooks" rel="noopener">@malcriadabooks</a></li>
+<li>Amazon: <a href="https://www.amazon.com/author/claramalcriada" rel="noopener">author page</a></li>
+</ul>
+</section>
 
 </main>
 <footer class="site"><div class="container">
 <span>© 2026 Clara Malcriada. All rights reserved.</span>
-<span><a href="/blog/">Blog</a> · <a href="/about.html">About</a> · <a href="/privacy-policy.html">Privacy Policy</a> · <a href="/#contact">Contact</a></span>
+<span><a href="/blog/" title="Portuguese blog">Blog</a> · <a href="#about">About</a> · <a href="/privacy-policy.html">Privacy Policy</a> · <a href="#contact">Contact</a></span>
 </div></footer>
 </body>
 </html>

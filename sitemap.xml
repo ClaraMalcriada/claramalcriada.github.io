@@ -4,6 +4,8 @@
     <loc>https://claramalcriada.github.io/</loc>
     <lastmod>2026-11-17</lastmod>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claramalcriada.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://claramalcriada.github.io/en/" />
   </url>
   <url>
     <loc>https://claramalcriada.github.io/en/</loc>
@@ -61,5 +63,14 @@
     <loc>https://claramalcriada.github.io/about.html</loc>
     <lastmod>2026-11-17</lastmod>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claramalcriada.github.io/about.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://claramalcriada.github.io/en/about.html" />
+  </url>
+  <url>
+    <loc>https://claramalcriada.github.io/en/about.html</loc>
+    <lastmod>2026-11-17</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claramalcriada.github.io/about.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://claramalcriada.github.io/en/about.html" />
   </url>
 </urlset>
