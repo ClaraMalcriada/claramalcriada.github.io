@@ -1,18 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://claramalcriada.github.io </loc>
-    <lastmod>2025-07-17</lastmod>
+    <loc>https://claramalcriada.github.io/</loc>
+    <lastmod>2026-11-17</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://claramalcriada.github.io/#books</loc>
-    <lastmod>2025-07-17</lastmod>
+    <loc>https://claramalcriada.github.io/blog/</loc>
+    <lastmod>2026-11-17</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc> https://claramalcriada.github.io/#contact</loc>
-    <lastmod>2025-07-17</lastmod>
-    <priority>0.5</priority>
+    <loc>https://claramalcriada.github.io/blog/arte-da-indireta-chinesa/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://claramalcriada.github.io/blog/patadas-russas-insultos-classicos/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://claramalcriada.github.io/blog/guia-serie-arte-da-patada/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://claramalcriada.github.io/blog/indiretas-chinesas-whatsapp/</loc>
+    <lastmod>2026-12-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://claramalcriada.github.io/blog/elogio-envenenado/</loc>
+    <lastmod>2026-12-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://claramalcriada.github.io/blog/insultos-que-viraram-proverbios/</loc>
+    <lastmod>2027-01-05</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://claramalcriada.github.io/blog/manual-do-silencio-eloquente/</loc>
+    <lastmod>2027-01-20</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://claramalcriada.github.io/blog/quem-e-clara-malcriada/</loc>
+    <lastmod>2027-02-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://claramalcriada.github.io/about.html</loc>
+    <lastmod>2026-11-17</lastmod>
+    <priority>0.8</priority>
   </url>
 </urlset>
