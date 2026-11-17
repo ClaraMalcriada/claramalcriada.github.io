@@ -154,4 +154,18 @@
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claramalcriada.github.io/about.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://claramalcriada.github.io/en/about.html" />
   </url>
+  <url>
+    <loc>https://claramalcriada.github.io/privacy-policy.html</loc>
+    <lastmod>2026-11-17</lastmod>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claramalcriada.github.io/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://claramalcriada.github.io/en/privacy-policy.html" />
+  </url>
+  <url>
+    <loc>https://claramalcriada.github.io/en/privacy-policy.html</loc>
+    <lastmod>2026-11-17</lastmod>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claramalcriada.github.io/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://claramalcriada.github.io/en/privacy-policy.html" />
+  </url>
 </urlset>
