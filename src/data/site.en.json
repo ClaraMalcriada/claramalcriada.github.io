@@ -1,0 +1,313 @@
+{
+  "lang": "en",
+  "ogLocale": "en_US",
+  "brand": "Clara Malcriada",
+  "nav": [
+    {
+      "label": "About",
+      "href": "/en/about.html"
+    },
+    {
+      "label": "Books",
+      "href": "/en/#books"
+    },
+    {
+      "label": "Blog",
+      "href": "/en/blog/"
+    },
+    {
+      "label": "Contact",
+      "href": "/en/about.html#contact"
+    },
+    {
+      "label": "Malcriada Books",
+      "href": "/en/#malcriada-books"
+    }
+  ],
+  "langSwitch": {
+    "label": "PT-BR",
+    "href": "/",
+    "title": "Português"
+  },
+  "hero": {
+    "title": "Clara Malcriada —",
+    "accent": "Sarcastic books that slap back",
+    "subtitle": "Sarcastic books on insults, irony and elegant verbal comebacks — from imperial China to the land of the tsars.",
+    "primaryCta": {
+      "label": "See the books",
+      "href": "#books"
+    },
+    "secondaryCta": {
+      "label": "Who is Clara?",
+      "href": "#about"
+    },
+    "image": "/hero.png",
+    "imageAlt": "Clara Malcriada"
+  },
+  "about": {
+    "heading": "Who is Clara Malcriada?",
+    "bio": [
+      "Clara Malcriada was born somewhere between a botched scolding and a comeback delivered behind someone's back. She showed a gift for saying what she thinks from an early age — especially when nobody asked. At 7, she said <em>\"I don't have to\"</em> for the first time, and never stopped.",
+      "With a degree in <strong>Applied Sarcasm Arts</strong> and a specialization in <strong>Passive-Aggressive Communication</strong>, Clara built a career turning everyday situations into verbal weapons of moderate (emotional) destruction. She rose to fame after being kicked out of three family WhatsApp groups — with honors and zero regrets."
+    ],
+    "specialties": [
+      {
+        "title": "Specialties",
+        "text": "Turning everyday situations into verbal weapons of moderate (emotional) destruction."
+      },
+      {
+        "title": "Notoriety",
+        "text": "Famous for being kicked out of three family WhatsApp groups — with honors and zero regrets."
+      },
+      {
+        "title": "Traits",
+        "text": "Declines invitations with elegance, gives unsolicited advice, and replies to emails with \"as requested\" even when nobody requested anything."
+      }
+    ],
+    "lead": "Clara Malcriada is a <strong>Brazilian author of sarcastic books on insults, irony and elegant verbal comebacks</strong>. Her work explores how different cultures — from imperial China to the Russia of the tsars, from the Arab world to the Persia of the poets — turned criticism into a literary genre. All titles are available on Amazon in Kindle format, and most are free to read with a Kindle Unlimited subscription.",
+    "aboutHero": {
+      "title": "About Clara Malcriada",
+      "subtitle": "Brazilian author of sarcastic books on insults, irony and elegant verbal comebacks."
+    }
+  },
+  "booksSection": {
+    "heading": "Books in English",
+    "publishedHeading": "Published books (English editions)",
+    "intro": "Discover the works that turned Clara Malcriada into the voice everyone fears and loves.",
+    "buyCta": "Read on Amazon →",
+    "buyLinkLabel": "Read on Amazon →",
+    "kuLabel": "Kindle Unlimited",
+    "seriesName": "The Art of Insults series",
+    "seriesHeading": "The Art of Insults — the series",
+    "seriesMetaLabel": "Series ASIN",
+    "seriesBuyLabel": "See the series on Amazon →"
+  },
+  "blogSection": {
+    "heading": "From the blog",
+    "intro": "Applied sarcasm, historical irony and other civilized forms of discontent.",
+    "readLabel": "Read on the blog →",
+    "allLabel": "See all posts →",
+    "allHref": "/en/blog/",
+    "citedHeading": "Books cited in this post",
+    "startHeading": "Start with a book",
+    "posts": [
+      {
+        "title": "Malcriada Books: editing and publishing for authors",
+        "href": "/en/blog/malcriada-books-edicao-para-autores/"
+      }
+    ]
+  },
+  "blogHero": {
+    "title": "Blog",
+    "subtitle": "Applied sarcasm, historical irony and other civilized forms of discontent."
+  },
+  "privacy": {
+    "hero": {
+      "title": "Privacy Policy",
+      "subtitle": "How this site collects, uses and protects your data — in plain English."
+    },
+    "intro": "This policy explains how the <strong>Clara Malcriada</strong> website collects, uses and protects visitors' personal data.",
+    "sections": [
+      {
+        "heading": "1. Data we collect",
+        "paragraphs": [
+          "We collect only the email address you type into the newsletter form. The form is processed by Formspree, a service that receives and forwards the message — no other personal data is requested or stored by this site."
+        ]
+      },
+      {
+        "heading": "2. How we use data",
+        "paragraphs": [
+          "Email addresses are used exclusively to send the newsletter (news, new releases and promotions). We do not sell, rent or share your data with third parties, except Formspree, which acts only as the technical processor of the form."
+        ]
+      },
+      {
+        "heading": "3. Consent",
+        "paragraphs": [
+          "By subscribing to the newsletter, you agree to the storage and use of your email for the purposes described above. You can unsubscribe at any time via the unsubscribe link included in every email, or by writing to the official contact channel."
+        ]
+      },
+      {
+        "heading": "4. Your rights",
+        "paragraphs": [
+          "You can request access to, correction of, or deletion of your data at any time — just send an email to the contact channel listed on this site. We answer requests within 30 days."
+        ]
+      },
+      {
+        "heading": "5. Affiliate links",
+        "paragraphs": [
+          "This site participates in the Amazon affiliate program. Purchase links may record browsing data (such as cookies) for sales attribution, without identifying who you are. Amazon has its own privacy policy, which governs everything that happens there."
+        ]
+      },
+      {
+        "heading": "6. Changes to this policy",
+        "paragraphs": [
+          "This policy may be updated to reflect changes in our practices. Significant changes will be announced on this same page and, when relevant, by email to newsletter subscribers."
+        ]
+      }
+    ]
+  },
+  "newsletter": null,
+  "contact": {
+    "id": "contact",
+    "heading": "Want to say something?",
+    "intro": "If you insist on talking to me, here are the official channels:",
+    "email": {
+      "label": "Email",
+      "value": "malcriadaclara@gmail.com"
+    },
+    "socials": [
+      {
+        "name": "X (Twitter)",
+        "handle": "@ClaraMalcriada",
+        "href": "https://x.com/ClaraMalcriada",
+        "icon": "twitter"
+      },
+      {
+        "name": "YouTube",
+        "handle": "@ClaraMalcriada",
+        "href": "https://www.youtube.com/@ClaraMalcriada",
+        "icon": "youtube"
+      },
+      {
+        "name": "Threads",
+        "handle": "@malcriadabooks",
+        "href": "https://www.threads.com/@malcriadabooks",
+        "icon": "threads"
+      },
+      {
+        "name": "Amazon",
+        "handle": "@claramalcriada",
+        "href": "https://www.amazon.com/author/claramalcriada",
+        "icon": "amazon"
+      },
+      {
+        "name": "Instagram",
+        "handle": "@malcriadabooks",
+        "href": "https://instagram.com/malcriadabooks",
+        "icon": "instagram"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2026 Clara Malcriada. All rights reserved.",
+    "links": [
+      {
+        "label": "Blog",
+        "href": "/en/blog/"
+      },
+      {
+        "label": "About",
+        "href": "/en/about.html"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "/en/privacy-policy.html"
+      },
+      {
+        "label": "Contact",
+        "href": "/en/about.html#contact"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Who is Clara Malcriada?",
+        "a": "Clara Malcriada is a Brazilian author of sarcastic books on insults, irony and elegant verbal comebacks, published in Kindle format on Amazon. She is the creator of The Art of Insults series."
+      },
+      {
+        "q": "Where can I buy Clara Malcriada's books?",
+        "a": "All titles are available on Amazon in Kindle format, and most are included in the Kindle Unlimited program. Buy links are on this page and on the site's home page."
+      },
+      {
+        "q": "What is the reading order of The Art of Insults series?",
+        "a": "The volumes (Chinese Indirection, Russian Insults, Arabic Insults and Persian Insult) are independent and can be read in any order. Suggested order: Chinese, Russian, Arabic, Persian."
+      },
+      {
+        "q": "Are the books available in English?",
+        "a": "Yes. The main titles are published in English editions on Amazon.com, in addition to the original Brazilian Portuguese editions."
+      },
+      {
+        "q": "Do I need a Kindle device to read the books?",
+        "a": "No. Any Kindle e-reader or the free Kindle app for phone, tablet or computer works. With a Kindle Unlimited subscription, most titles can be read at no extra cost."
+      },
+      {
+        "q": "How can I contact the author?",
+        "a": "Through the official channels listed on this page: email, X (Twitter), Instagram and the Amazon author page."
+      }
+    ]
+  },
+  "meta": {
+    "siteTitle": "Clara Malcriada | Sarcastic Books on Amazon Kindle",
+    "siteDescription": "Clara Malcriada writes sarcastic books on insults, irony and elegant verbal comebacks across cultures. Browse The Art of Insults series on Amazon Kindle — $2.99 each, free with Kindle Unlimited.",
+    "siteKeywords": "Clara Malcriada, sarcastic books, humor essays, insults, comebacks, Kindle, Amazon, Kindle Unlimited, The Art of Insults",
+    "home": {
+      "title": "Clara Malcriada | Sarcastic Books on Amazon Kindle",
+      "description": "Clara Malcriada writes sarcastic books on insults, irony and elegant verbal comebacks across cultures. Browse The Art of Insults series on Amazon Kindle — $2.99 each, free with Kindle Unlimited.",
+      "keywords": "Clara Malcriada, sarcastic books, humor essays, insults, comebacks, Kindle, Amazon, Kindle Unlimited, The Art of Insults",
+      "ogTitle": "Clara Malcriada | Sarcastic Books That Slap Back",
+      "ogDescription": "Clara Malcriada writes sarcastic books on insults, irony and elegant verbal comebacks across cultures. Available on Amazon Kindle.",
+      "ogType": "website",
+      "twitterTitle": "Clara Malcriada | Sarcastic Books That Slap Back",
+      "twitterDescription": "Sarcastic books on insults, irony and elegant verbal comebacks — on Amazon Kindle."
+    },
+    "about": {
+      "title": "About Clara Malcriada | Author of sarcastic books and verbal comebacks",
+      "description": "Clara Malcriada is a Brazilian author of sarcastic books on insults, irony and elegant verbal comebacks. Meet The Art of Insults series and her other titles.",
+      "keywords": "Clara Malcriada, Brazilian author, sarcastic books, Art of Insults, elegant insults, Kindle, Amazon",
+      "ogTitle": "About Clara Malcriada | Author of sarcastic books",
+      "ogDescription": "Clara Malcriada is a Brazilian author of sarcastic books on insults, irony and elegant verbal comebacks.",
+      "ogType": "profile",
+      "twitterTitle": "About Clara Malcriada",
+      "twitterDescription": "Brazilian author of sarcastic books on insults, irony and elegant verbal comebacks."
+    },
+    "privacy": {
+      "title": "Privacy Policy | Clara Malcriada",
+      "description": "How the Clara Malcriada website collects, uses and protects personal data: newsletter, Formspree and Amazon affiliate links, in plain language.",
+      "keywords": "Clara Malcriada, privacy policy, privacy, newsletter, Formspree, Amazon affiliates",
+      "ogTitle": "Privacy Policy | Clara Malcriada",
+      "ogDescription": "How this site collects, uses and protects your data — in plain English.",
+      "ogType": "website",
+      "twitterTitle": "Privacy Policy | Clara Malcriada",
+      "twitterDescription": "How this site collects, uses and protects your data — in plain English."
+    }
+  },
+  "personLd": {
+    "description": "Clara Malcriada is the author of sarcastic books on insults, irony and elegant verbal comebacks, published on Amazon Kindle. Creator of The Art of Insults series.",
+    "nationality": "Brazil",
+    "knowsLanguage": [
+      "pt-BR",
+      "en"
+    ]
+  },
+  "itemListLd": {
+    "name": "Books by Clara Malcriada (English Editions)"
+  },
+  "malcriadaBooks": {
+    "id": "malcriada-books",
+    "heading": "Malcriada Books",
+    "intro": "Have a manuscript and want to publish? We handle the path from the file to the storefront: editing, ebook, hardcover, cover, metadata and follow-up.",
+    "note": "We do not write your book for you. You bring the text; we prepare it, publish it and track it.",
+    "ctaHref": "mailto:malcriadaclara@gmail.com?subject=I%20want%20to%20publish%20my%20book%20-%20Malcriada%20Books",
+    "ctaLabel": "Talk about my book",
+    "steps": [
+      {
+        "title": "Assessment",
+        "text": "We read the manuscript and flag what needs fixing before publication."
+      },
+      {
+        "title": "Ebook and hardcover",
+        "text": "Line editing, chapter structure and preparation of the ebook and the hardcover."
+      },
+      {
+        "title": "Publishing",
+        "text": "Cover, metadata, keywords, KDP upload from your own account and submission for review."
+      },
+      {
+        "title": "Follow-up",
+        "text": "KENP and sales report reviews, with positioning adjustments."
+      }
+    ]
+  }
+}

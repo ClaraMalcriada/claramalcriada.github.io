@@ -1,0 +1,308 @@
+{
+  "lang": "pt-BR",
+  "ogLocale": "pt_BR",
+  "brand": "Clara Malcriada",
+  "nav": [
+    {
+      "label": "Sobre",
+      "href": "/about.html"
+    },
+    {
+      "label": "Livros",
+      "href": "/#books"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog/"
+    },
+    {
+      "label": "Contato",
+      "href": "/about.html#contato"
+    },
+    {
+      "label": "Malcriada Books",
+      "href": "/#malcriada-books"
+    }
+  ],
+  "langSwitch": {
+    "label": "EN",
+    "href": "/en/",
+    "title": "English"
+  },
+  "hero": {
+    "title": "Clara Malcriada",
+    "accent": "Não é Obrigada",
+    "subtitle": "Especialista em sarcasmo e criadora de patadas verbais que deixam qualquer um sem reação.",
+    "primaryCta": {
+      "label": "Ver Livros",
+      "href": "#books"
+    },
+    "secondaryCta": {
+      "label": "Sobre Mim",
+      "href": "#about"
+    },
+    "image": "/hero.png",
+    "imageAlt": "Clara Malcriada"
+  },
+  "about": {
+    "heading": "Quem é Clara Malcriada?",
+    "bio": [
+      "Clara Malcriada nasceu em algum lugar entre uma bronca mal dada e uma resposta atravessada. Desde pequena demonstrou vocação para dizer o que pensa, especialmente quando não é perguntada. Aos 7 anos, respondeu \"não sou obrigada\" pela primeira vez — e nunca mais parou.",
+      "Formada em <strong>Artes do Sarcasmo Aplicado</strong>, com especialização em <strong>Comunicação Passivo-Agressiva</strong>, Clara construiu sua carreira transformando situações cotidianas em armas verbais de destruição (emocional) moderada. Ganhou notoriedade ao ser expulsa de três grupos de WhatsApp da família — com honra e zero arrependimentos."
+    ],
+    "specialties": [
+      {
+        "title": "Especialidades",
+        "text": "Transformar situações cotidianas em armas verbais de destruição (emocional) moderada."
+      },
+      {
+        "title": "Notoriedade",
+        "text": "Famosa por ter sido expulsa de três grupos de WhatsApp da família — com honra e zero arrependimentos."
+      },
+      {
+        "title": "Características",
+        "text": "Recusa convites com elegância, dá conselhos não solicitados e responde e-mails com \"conforme solicitado\" mesmo quando ninguém solicitou nada."
+      }
+    ],
+    "lead": "Clara Malcriada é <strong>autora brasileira de livros de sarcasmo, ironia e patadas verbais elegantes</strong>. Sua obra explora como diferentes culturas — da China imperial à Rússia dos czares, do mundo árabe à Pérsia dos poetas — transformaram a crítica em gênero literário. Todos os títulos estão disponíveis na Amazon em formato Kindle.",
+    "aboutHero": {
+      "title": "Sobre Clara Malcriada",
+      "subtitle": "Autora brasileira de livros de sarcasmo, ironia e patadas verbais elegantes."
+    }
+  },
+  "booksSection": {
+    "heading": "Livros da Autora",
+    "publishedHeading": "Livros publicados",
+    "intro": "Descubra as obras que transformaram Clara Malcriada na voz que todos temem e amam.",
+    "buyCta": "Ver na Amazon →",
+    "buyLinkLabel": "Comprar no Amazon →",
+    "kuLabel": "Kindle Unlimited",
+    "seriesName": "Série A Arte da Patada",
+    "seriesHeading": "A Arte da Patada — a série",
+    "seriesMetaLabel": "ASIN da série",
+    "seriesBuyLabel": "Ver a série na Amazon →"
+  },
+  "blogSection": {
+    "heading": "Do blog",
+    "intro": "Sarcasmo aplicado, ironia histórica e outras formas civilizadas de descontentamento.",
+    "readLabel": "Ler no blog →",
+    "allLabel": "Ver todos os posts →",
+    "allHref": "/blog/",
+    "citedHeading": "Livros citados neste post",
+    "startHeading": "Comece por um livro",
+    "posts": [
+      {
+        "title": "A Arte da Indireta Chinesa: por que o silêncio é a patada mais elegante",
+        "href": "/blog/arte-da-indireta-chinesa/"
+      },
+      {
+        "title": "Patadas Russas: 7 insultos clássicos que sobreviveram aos czares",
+        "href": "/blog/patadas-russas-insultos-classicos/"
+      },
+      {
+        "title": "Como insultar com elegância: guia da série A Arte da Patada",
+        "href": "/blog/guia-serie-arte-da-patada/"
+      },
+      {
+        "title": "Malcriada Books: edição e publicação para autores",
+        "href": "/blog/malcriada-books-edicao-para-autores/"
+      }
+    ]
+  },
+  "blogHero": {
+    "title": "Blog",
+    "subtitle": "Sarcasmo aplicado, ironia histórica e outras formas civilizadas de descontentamento."
+  },
+  "privacy": {
+    "hero": {
+      "title": "Política de Privacidade",
+      "subtitle": "Como este site coleta, usa e protege seus dados — em linguagem de gente."
+    },
+    "intro": "Esta política explica como o site <strong>Clara Malcriada</strong> coleta, usa e protege os dados pessoais dos visitantes.",
+    "sections": [
+      {
+        "heading": "1. Dados coletados",
+        "paragraphs": [
+          "Coletamos apenas o e-mail que você informa no formulário de newsletter. O formulário é processado pelo Formspree, serviço que recebe e encaminha a mensagem — nenhum outro dado pessoal é solicitado ou armazenado por este site."
+        ]
+      },
+      {
+        "heading": "2. Uso dos dados",
+        "paragraphs": [
+          "Os e-mails são usados exclusivamente para o envio da newsletter (novidades, lançamentos e promoções). Não vendemos, alugamos ni compartilhamos seus dados com terceiros, com exceção do Formspree, que atua apenas como processador técnico do formulário."
+        ]
+      },
+      {
+        "heading": "3. Consentimento",
+        "paragraphs": [
+          "Ao se inscrever na newsletter, você concorda com o armazenamento e o uso do seu e-mail para os fins descritos acima. Você pode cancelar a inscrição a qualquer momento pelo link de descadastramento presente em cada e-mail ou escrevendo para o contato oficial."
+        ]
+      },
+      {
+        "heading": "4. Direitos do usuário",
+        "paragraphs": [
+          "Você pode solicitar a qualquer momento acesso, correção ou exclusão dos seus dados, basta enviar um e-mail para o canal de contato indicado no site. Atendemos pedidos em até 30 dias."
+        ]
+      },
+      {
+        "heading": "5. Links de afiliados",
+        "paragraphs": [
+          "Este site participa do programa de afiliados da Amazon. Os links de compra podem registrar dados de navegação (como cookies) para atribuição de vendas, sem identificar quem você é. A Amazon tem política de privacidade própria, aplicável ao que acontece lá."
+        ]
+      },
+      {
+        "heading": "6. Alterações na política",
+        "paragraphs": [
+          "Esta política pode ser atualizada para refletir mudanças em nossas práticas. Alterações significativas serão comunicadas nesta mesma página e, quando relevante, por e-mail aos assinantes da newsletter."
+        ]
+      }
+    ]
+  },
+  "newsletter": {
+    "heading": "Receba as melhores patadas direto na sua caixa de entrada",
+    "intro": "Inscreva-se para receber frases de efeito, patadas mentais e outras coisas que você não pediu mas vai adorar.",
+    "emailPlaceholder": "Seu email",
+    "submitLabel": "Inscrever-se",
+    "consentPre": "Ao se inscrever, você concorda com nossa",
+    "consentLinkLabel": "Política de Privacidade",
+    "privacyHref": "/privacy-policy.html"
+  },
+  "contact": {
+    "id": "contato",
+    "heading": "Vai dizer alguma coisa?",
+    "intro": "Se você insiste em falar comigo, aqui estão os canais oficiais:",
+    "email": {
+      "label": "Email",
+      "value": "malcriadaclara@gmail.com"
+    },
+    "socials": [
+      {
+        "name": "X (Twitter)",
+        "handle": "@ClaraMalcriada",
+        "href": "https://x.com/ClaraMalcriada",
+        "icon": "twitter"
+      },
+      {
+        "name": "YouTube",
+        "handle": "@ClaraMalcriada",
+        "href": "https://www.youtube.com/@ClaraMalcriada",
+        "icon": "youtube"
+      },
+      {
+        "name": "Threads",
+        "handle": "@malcriadabooks",
+        "href": "https://www.threads.com/@malcriadabooks",
+        "icon": "threads"
+      },
+      {
+        "name": "Amazon",
+        "handle": "@claramalcriada",
+        "href": "https://www.amazon.com/author/claramalcriada",
+        "icon": "amazon"
+      },
+      {
+        "name": "Instagram",
+        "handle": "@malcriadabooks",
+        "href": "https://instagram.com/malcriadabooks",
+        "icon": "instagram"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2026 Clara Malcriada. Todos os direitos reservados.",
+    "links": [
+      {
+        "label": "Blog",
+        "href": "/blog/"
+      },
+      {
+        "label": "Sobre",
+        "href": "/about.html"
+      },
+      {
+        "label": "Política de Privacidade",
+        "href": "/privacy-policy.html"
+      },
+      {
+        "label": "Contato",
+        "href": "/about.html#contato"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Perguntas frequentes",
+    "items": [
+      {
+        "q": "Quem é Clara Malcriada?",
+        "a": "Clara Malcriada é autora brasileira de livros de sarcasmo, ironia e patadas verbais elegantes, publicados em formato Kindle na Amazon. É a criadora da série A Arte da Patada."
+      },
+      {
+        "q": "Onde comprar os livros de Clara Malcriada?",
+        "a": "Todos os títulos estão disponíveis na Amazon em formato Kindle, e a maioria participa do programa Kindle Unlimited. Os links de compra estão nesta página e na página inicial do site."
+      },
+      {
+        "q": "Qual a ordem de leitura da série A Arte da Patada?",
+        "a": "Os quatro volumes (Indireta Chinesa, Patadas Russas, Patadas Árabes e Insulto Persa) são independentes e podem ser lidos em qualquer ordem. Sugestão pedagógica: chinesa, russa, árabes e persa."
+      }
+    ]
+  },
+  "meta": {
+    "siteTitle": "Clara Malcriada | Livros Sarcásticos e Patadas Verbais",
+    "siteDescription": "Clara Malcriada escreve livros sobre sarcasmo, ironia e patadas verbais. Disponíveis na Amazon em formato Kindle.",
+    "siteKeywords": "Clara Malcriada, livro de sarcasmo, Amazon, Kindle",
+    "about": {
+      "title": "Sobre Clara Malcriada | Autora de livros de sarcasmo e patadas verbais",
+      "description": "Clara Malcriada é autora brasileira de livros de sarcasmo, ironia e patadas verbais elegantes. Conheça a série A Arte da Patada e os demais títulos.",
+      "keywords": "Clara Malcriada, autora brasileira, livros de sarcasmo, arte da patada, insulto elegante, Kindle, Amazon",
+      "ogTitle": "Sobre Clara Malcriada | Autora de livros de sarcasmo",
+      "ogDescription": "Clara Malcriada é autora brasileira de livros de sarcasmo, ironia e patadas verbais elegantes.",
+      "ogType": "profile",
+      "twitterTitle": "Sobre Clara Malcriada",
+      "twitterDescription": "Autora brasileira de livros de sarcasmo, ironia e patadas verbais elegantes."
+    },
+    "privacy": {
+      "title": "Política de Privacidade | Clara Malcriada",
+      "description": "Como o site da Clara Malcriada coleta, usa e protege dados pessoais: newsletter, Formspree e links de afiliados Amazon, em linguagem simples.",
+      "keywords": "Clara Malcriada, política de privacidade, privacidade, newsletter, Formspree, afiliados Amazon",
+      "ogTitle": "Política de Privacidade | Clara Malcriada",
+      "ogDescription": "Como este site coleta, usa e protege seus dados — em linguagem de gente.",
+      "ogType": "website",
+      "twitterTitle": "Política de Privacidade | Clara Malcriada",
+      "twitterDescription": "Como este site coleta, usa e protege seus dados — em linguagem de gente."
+    }
+  },
+  "personLd": {
+    "description": "Autora brasileira de livros de sarcasmo, ironia e patadas verbais elegantes. Criadora da série A Arte da Patada.",
+    "nationality": "Brasil",
+    "knowsLanguage": "pt-BR"
+  },
+  "itemListLd": {
+    "name": "Livros de Clara Malcriada"
+  },
+  "malcriadaBooks": {
+    "id": "malcriada-books",
+    "heading": "Malcriada Books",
+    "intro": "Você tem um manuscrito e quer publicar? A gente cuida do caminho entre o arquivo e a livraria: edição, ebook, hardcover, capa, metadados e acompanhamento.",
+    "note": "Não escrevemos o livro por você. Você traz o texto; a gente prepara, publica e acompanha.",
+    "ctaHref": "mailto:malcriadaclara@gmail.com?subject=Quero%20publicar%20meu%20livro%20%E2%80%94%20Malcriada%20Books",
+    "ctaLabel": "Falar sobre meu livro",
+    "steps": [
+      {
+        "title": "Diagnóstico",
+        "text": "Lemos o manuscrito e apontamos o que precisa de ajuste antes da publicação."
+      },
+      {
+        "title": "Ebook e hardcover",
+        "text": "Revisão de texto, estrutura de capítulos e preparação do ebook e do hardcover."
+      },
+      {
+        "title": "Publicação",
+        "text": "Capa, metadados, palavras-chave, upload na sua conta KDP e submissão para revisão."
+      },
+      {
+        "title": "Acompanhamento",
+        "text": "Leitura dos relatórios de KENP e vendas, com ajustes de posicionamento."
+      }
+    ]
+  }
+}

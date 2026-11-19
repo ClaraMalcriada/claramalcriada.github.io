@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "blog": "node scripts/build-blog.mjs",
+    "build": "node scripts/build-blog.mjs && vite build && node scripts/build-static.mjs && node scripts/fix-css.mjs",
     "lint": "eslint .",
+    "test": "node scripts/test-site.mjs",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
@@ -22,6 +24,7 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "gh-pages": "^6.3.0",
     "globals": "^16.3.0",
+    "marked": "^18.2.1",
     "postcss": "^8.5.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
