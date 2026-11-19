@@ -168,4 +168,18 @@
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claramalcriada.github.io/privacy-policy.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://claramalcriada.github.io/en/privacy-policy.html" />
   </url>
+  <url>
+    <loc>https://claramalcriada.github.io/blog/malcriada-books-edicao-para-autores/</loc>
+    <lastmod>2026-11-19</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claramalcriada.github.io/blog/malcriada-books-edicao-para-autores/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://claramalcriada.github.io/en/blog/malcriada-books-edicao-para-autores/" />
+  </url>
+  <url>
+    <loc>https://claramalcriada.github.io/en/blog/malcriada-books-edicao-para-autores/</loc>
+    <lastmod>2026-11-19</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claramalcriada.github.io/blog/malcriada-books-edicao-para-autores/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://claramalcriada.github.io/en/blog/malcriada-books-edicao-para-autores/" />
+  </url>
 </urlset>
